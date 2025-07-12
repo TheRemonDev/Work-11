@@ -1,0 +1,576 @@
+/* ============================================================== 
+     # All Common Css
+=================================================================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+a,a:hover {
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.35s ease-in-out;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	color: var(--color-heading);
+	font-weight: normal;
+	line-height: 1.2;
+	font-family: var(--font-heading);
+	letter-spacing: 0;
+	margin: 0;
+    font-weight: 700;
+    transition: all 0.35s ease-in-out;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 27px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+h6 {
+	font-size: 14px;
+}
+
+a, .btn, button {
+	-webkit-transition: all 0.35s ease-in-out;
+	transition: all 0.35s ease-in-out;
+	outline: medium none;
+	text-decoration: none;
+    color: #000000;
+}
+
+.row {
+	--bs-gutter-x: 30px;
+}
+
+.align-center {
+	align-items: center;
+}
+
+
+.progress-wrap {
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	height: 46px;
+	width: 46px;
+	cursor: pointer;
+	display: block;
+	border-radius: 50px;
+	box-shadow: inset  0 0 0 2px rgba(255,255,255,0.2);
+	z-index: 10;
+	opacity: 0;
+	visibility: hidden;
+	transform: translateY(15px);
+	-webkit-transition: all 200ms linear;
+}
+
+.progress-wrap.active-progress {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0);
+}
+
+.progress-wrap::after {
+	position: absolute;
+	font-family: 'unicons';
+	content: "\f077";
+	text-align: center;
+    font-family: "Font Awesome 5 Pro";
+	line-height: 46px;
+	font-size: 24px;
+	color: #fd0060;
+	left: 0;
+	top: 0;
+	height: 46px;
+	width: 46px;
+	cursor: pointer;
+	display: block;
+	z-index: 1;
+	-webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+.progress-wrap:hover::after {
+	opacity: 0;
+}
+
+.progress-wrap::before {
+	position: absolute;
+	content: "\f077";
+    font-family: "Font Awesome 5 Pro";
+	text-align: center;
+	line-height: 46px;
+	font-size: 24px;
+	opacity: 0;
+    color: #fd0060;
+	left: 0;
+	top: 0;
+	height: 46px;
+	width: 46px;
+	cursor: pointer;
+	display: block;
+	z-index: 2;
+	-webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+
+.progress-wrap:hover::before {
+	opacity: 1;
+}
+
+.progress-wrap svg path { 
+	fill: none; 
+}
+
+.progress-wrap svg.progress-circle path {
+	stroke: #fd0060;
+	stroke-width: 4;
+	box-sizing:border-box;
+	-webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+
+
+
+.progress{
+	width: 100%;
+	height: 10px;
+}
+.skill-wrapper{
+  margin-bottom:30px;
+}
+.skill-wrapper span {
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-family: Inconsolata,monospace;
+    margin-bottom: 10px;
+}
+.progress-bar {
+    background: #fd0060;
+}
+.progressbar-active{
+	animation-name: progress;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-delay: 0.4s;
+}
+@keyframes progress{
+	0%{
+		width:0;
+	}
+	100%{
+		width:100%;
+	}
+}
+
+
+h6.site-heading {
+    color: #FF3B00;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    padding-bottom: 20px;
+}
+
+/* ============================================================== 
+     # Strat Banner Css
+=================================================================== */
+
+.banner-style-one-area {
+    
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.banner-style-one-item h1 {
+    font-size: 86px;
+    font-weight: 600;
+    padding-bottom: 24px;
+}
+
+.banner-style-one-item p {
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+a.btn-theme {
+    background: #FF3B00;
+    color: #ffffff;
+    padding: 14px 30px;
+    margin-right: 41px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    z-index: 1;
+}
+
+a.btn-theme i {
+    position: absolute;
+    right: -50px;
+    top: 4px;
+    background: #FF3B00;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+a.btn-video {
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+a.btn-video i {
+    color: #FF3B00;
+    border: 2px solid #FF3B00;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 17px;
+}
+
+.banner-shape img {
+    height: 100%;
+}
+
+.banner-shape {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.banner-thumb {
+    position: relative;
+    margin-right: -55%;
+    z-index: 1;
+}
+
+.banner-thumb img {
+    height: 100%;
+    width: 100%;
+}
+
+/* ============================================================== 
+     # Strat Service Css
+=================================================================== */
+
+.service-style-one-area {
+    padding: 120px 0;
+}
+
+.service-one-heading {
+    padding-bottom: 50px;
+}
+
+.service-one-heading h3 {
+    font-size: 57px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.service-style-one-item {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+
+.service-style-one-item:hover {
+    transform: translateY(-15px);
+}
+
+.service-style-one-item h4 {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+.service-style-one-item p {
+    font-size: 18px;
+}
+
+.service-style-one-item img {
+    transition: 0.4s;
+}
+
+.service-style-one-item:hover img {
+    transform: rotateY(180deg);
+}
+
+/* ============================================================== 
+     # Strat About Css
+=================================================================== */
+
+.about-style-one-area {
+    padding: 120px 0;
+}
+
+.about-style-one-content h3 {
+    font-size: 60px;
+    font-weight: 600;
+    padding-bottom: 28px;
+}
+
+.about-style-one-thumb img {
+    width: 100%;
+}
+
+ul.about-style-one-item li {
+    font-size: 17px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+ul.about-style-one-item li i {
+    margin-right: 10px;
+    font-weight: 400;
+}
+
+.about-style-one-bottom h4 {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-left: 23px;
+}
+
+.about-style-one-bottom {
+    margin-top: 15px;
+}
+
+/* ============================================================== 
+     # Strat Project Css
+=================================================================== */
+
+.project-style-one-item img {
+    width: 100%;
+}
+
+.project-style-one-item {
+    position: relative;
+    z-index: 1;
+    transition: 0.4s;
+    margin-top: 30px;
+}
+
+.project-style-one-item:hover .project-one-info {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-15px);
+}
+
+.project-one-info {
+    text-align: center;
+    background: #FF3B00;
+    color: #ffffff;
+    padding: 30px 50px;
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: absolute;
+    left: 33px;
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+.project-one-info h5 {
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.project-one-info p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.project-style-one-area {
+    padding: 120px 0;
+}
+
+.project-style-one-heading h3 {
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.project-style-one-heading {
+    padding-bottom: 50px;
+}
+
+
+/* ============================================================== 
+     # Strat Pricing Css
+=================================================================== */
+
+
+.pricing-one-heading h3 {
+    font-size: 53px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+}
+
+ul.pricing-one-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+ul.pricing-one-item li a {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+ul.pricing-one-item .monthly a {
+    background: #FF3B00;
+    color: #ffffff;
+    padding: 10px 25px;
+    border-radius: 30px 0 0 30px;
+    border: 1px solid #CFCFCF;
+}
+
+ul.pricing-one-item .yearly {
+    border: 1px solid #CFCFCF;
+    padding: 10px 25px;
+    border-radius: 0 30px 30px 0;
+}
+
+.pricing-style-one-item {
+    padding: 30px;
+    border: 2px solid #CCCCCC;
+    border-radius: 20px;
+    transition: 0.4s;
+    margin-top: 50px;
+}
+
+.pricing-style-one-item h2 {
+    font-size: 60px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.pricing-style-one-item h2 span {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.pricing-style-one-item h5 {
+    font-size: 32px;
+    text-transform: capitalize;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+ul.pricing-one-info {
+    padding-top: 15px;
+    border-top: 2px solid #cccccc;
+}
+
+ul.pricing-one-info li i {
+    margin-right: 12px;
+}
+
+ul.pricing-one-info li p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+ul.pricing-one-info li {
+    padding-bottom: 15px;
+}
+
+ul.pricing-one-info li i.cross {
+    color: #FF3B00;
+}
+
+a.btn-md {
+    position: relative;
+    z-index: 1;
+    padding: 15px 30px;
+    background: #F4F4F4;
+    border-radius: 70px;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #05091D;
+}
+
+a.btn-md i {
+    position: absolute;
+    right: -50px;
+    top: 6px;
+    background: #F4F4F4;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color: #05091D;
+}
+
+.pricing-style-one-item:hover {
+    border: 2px solid #FF3B00;
+}
+
+.pricing-style-one-item:hover .btn-md{
+    background: #FF3B00;
+    color: #ffffff;
+}
+
+.pricing-style-one-item:hover .btn-md i{
+    background: #FF3B00;
+    color: #ffffff;
+}
+
+.pricing-style-one-area {
+    padding-bottom: 120px;
+}
