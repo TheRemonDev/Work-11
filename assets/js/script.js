@@ -79,7 +79,7 @@
 		const BrandStyleOne = new Swiper(".brand-style-one-carousel", {
 			// Optional parameters
 			loop: true,
-			slidesPerView: 2,
+			slidesPerView: 1,
 			spaceBetween: 30,
 			autoplay: true,
 			pagination: {
@@ -95,7 +95,7 @@
 					slidesPerView: 4,
 				},
 				1199: {
-					slidesPerView: 6,
+					slidesPerView: 5,
 				}
 			},
 		});

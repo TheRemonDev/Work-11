@@ -693,6 +693,14 @@ a.btn-md i {
     border-radius: 0;
 }
 
+.brand-style-one-carousel {
+    padding-top: 100px;
+}
+
+.brand-style-one-item img {
+    width: 180px;
+}
+
 /* ============================================================== 
      # Strat Pricing Css
 =================================================================== */
