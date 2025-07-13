@@ -702,5 +702,60 @@ a.btn-md i {
 }
 
 /* ============================================================== 
-     # Strat Pricing Css
+     # Strat Working Css
+=================================================================== */
+
+.working-style-one-area {
+    padding: 120px 0;
+}
+
+.working-style-one-heading {
+    margin-bottom: 25px;
+}
+
+.working-style-one-heading h3 {
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+.working-style-one-heading p {
+    font-size: 18px;
+    
+    line-height: 1.7;
+}
+
+.working-style-one-item span {
+    background: #FF3B00;
+    border-radius: 50%;
+    color: #ffffff;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    left: 50%;
+    top: -30px;
+    transform: translateX(-50%);
+}
+
+.working-style-one-item {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.working-style-one-item .thumb {
+    position: relative;
+    z-index: 1;
+}
+
+.working-style-one-item p {
+    padding-top: 30px;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+/* ============================================================== 
+     # Strat Working Css
 =================================================================== */
