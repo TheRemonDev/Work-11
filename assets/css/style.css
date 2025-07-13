@@ -738,6 +738,7 @@ a.btn-md i {
     left: 50%;
     top: -30px;
     transform: translateX(-50%);
+    transition: 0.5s;
 }
 
 .working-style-one-item {
@@ -748,6 +749,18 @@ a.btn-md i {
 .working-style-one-item .thumb {
     position: relative;
     z-index: 1;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.working-style-one-item:hover .thumb {
+    transform: scale(1.3);
+}
+
+.working-style-one-item:hover span {
+    transform: translateY(-50%);
+    left: -22px;
+    top: 50%;
 }
 
 .working-style-one-item p {
