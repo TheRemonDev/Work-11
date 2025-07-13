@@ -345,6 +345,27 @@ a.btn-video i {
     transform: rotateY(180deg);
 }
 
+.service-style-one-thumb {
+    height: 365px;
+    margin-top: 30px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.service-style-one-thumb::after {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    background: #000000;
+    z-index: -1;
+    opacity: 0.6;
+    border-radius: 15px;
+}
+
 /* ============================================================== 
      # Strat About Css
 =================================================================== */
@@ -576,3 +597,56 @@ a.btn-md i {
 .pricing-style-one-area {
     padding-bottom: 120px;
 }
+
+/* ============================================================== 
+     # Strat Contact Css
+=================================================================== */
+
+.contact-style-one-area {
+    padding: 120px 0;
+    background: #000000;
+}
+
+.contact-style-one-content h3 {
+    font-size: 75px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-bottom: 14px;
+}
+
+.contact-style-one-content p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.contact-style-one-content ul li {
+    margin-bottom: 20px;
+}
+
+.contact-style-one-content ul li i {
+    font-size: 24px;
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+.contact-style-one-content ul li span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contact-style-one-content ul li a {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.contact-style-one-content ul li h5 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 8px;
+}
+
+/* ============================================================== 
+     # Strat Pricing Css
+=================================================================== */
