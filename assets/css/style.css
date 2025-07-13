@@ -770,5 +770,87 @@ a.btn-md i {
 }
 
 /* ============================================================== 
-     # Strat Working Css
+     # Strat Blog Css
 =================================================================== */
+
+.blog-style-one-item .thumb img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.blog-style-one-item {
+    margin-top: 30px;
+}
+
+.blog-style-one-item .info {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    position: relative;
+    top: -100px;
+    background: #ffffff;
+    z-index: 9;
+}
+
+.blog-style-one-item .info ul {
+    display: flex;
+    align-items: center;
+}
+
+.blog-style-one-item ul li {
+    padding-right: 26px;
+}
+
+.blog-style-one-item ul li i {
+    color: #FF3B00;
+    padding-right: 15px;
+    font-size: 21px;
+}
+
+.blog-style-one-item .info ul li span {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.blog-style-one-item .info h4 {
+    font-size: 22px;
+    line-height: 1.4;
+    padding-bottom: 20px;
+}
+
+.blog-style-one-item .info h4:hover a {
+    color: #FF3B00;
+}
+
+.blog-style-one-item .info .btn-sm {
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.blog-style-one-item .info .btn-sm:hover {
+    color: #FF3B00;
+}
+
+.blog-style-oen-area {
+    padding-top: 120px;
+}
+
+.blog-style-one-heading {
+    margin-bottom: 30px;
+}
+
+.blog-style-one-heading h3 {
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-bottom: 13px;
+}
+
+.blog-style-one-heading p {
+    font-size: 18px;
+    line-height: 1.8;
+}
