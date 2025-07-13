@@ -1019,3 +1019,31 @@ img.circle-image {
 .about-funfact-bottom .client-info .content span {
     font-size: 17px;
 }
+
+.about-contact-one-area {
+    padding: 80px 0;
+    background: #05091D;
+    position: relative;
+    z-index: 1;
+}
+
+.contact-image {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    max-width: 850px;
+    z-index: -1;
+}
+
+.contact-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.contact-form h3 {
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
