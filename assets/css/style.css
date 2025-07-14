@@ -1085,6 +1085,44 @@ ul.footer-top-social li a {
     font-size: 20px;
 }
 
+.footer-center-area {
+    padding: 42px 0;
+}
+
+ul.footer-list-item li {
+    margin-bottom: 16px;
+}
+
+.footer-style-one-item h4 {
+    font-size: 33px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+}
+
+ul.footer-list-item li span {
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 0.7;
+    padding-bottom: 18px;
+}
+
+ul.footer-list-item li h6 a {
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.footer-style-one-item ul.footer-list-item li a {
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+.footer-style-one-item ul.footer-list-item li:hover a {
+    color: #FF3B00;
+}
+
 /* ============================================================== 
      # Strat Blog Css
 =================================================================== */
