@@ -1123,6 +1123,59 @@ ul.footer-list-item li h6 a {
     color: #FF3B00;
 }
 
+.footer-style-one-item p {
+    font-size: 18px;
+    line-height: 1.7;
+    padding-bottom: 20px;
+}
+
+ul.footer-center-social {
+    display: flex;
+    align-items: center;
+}
+
+ul.footer-center-social li {
+    margin-right: 10px;
+}
+
+ul.footer-center-social li a {
+    border: 1px solid #FF3B00;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+ul.footer-center-social li:hover a {
+    background: #FF3B00;
+    color: #ffffff;
+}
+
+.footer-input {
+    padding: 14px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #ccc;
+}
+
+.footer-input input {
+    border: none;
+    background: transparent;
+}
+
+.footer-input input::placeholder {
+    font-size: 19px;
+}
+
+.footer-input i {
+    color: #FF3B00;
+    font-size: 20px;
+}
+
 /* ============================================================== 
      # Strat Blog Css
 =================================================================== */
