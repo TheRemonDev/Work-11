@@ -1053,7 +1053,8 @@ img.circle-image {
 =================================================================== */
 
 .footer-style-one-area {
-    padding: 120px 0;
+    padding-top: 150px;
+    padding-bottom: 40px;
     background: #f4f3f2;
 }
 
@@ -1174,6 +1175,40 @@ ul.footer-center-social li:hover a {
 .footer-input i {
     color: #FF3B00;
     font-size: 20px;
+}
+
+.footer-bottom-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    border-top: 1px solid #cccccc;
+    margin-top: 30px;
+}
+
+ul.footer-bottom-menu {
+    display: flex;
+    align-items: center;
+}
+
+ul.footer-bottom-menu li {
+    margin-right: 23px;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+ul.footer-bottom-menu li:hover a {
+    color: #FF3B00;
+}
+
+.footer-bottom-area p {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.footer-bottom-area span {
+    color: #FF3B00;
+    font-weight: 600;
 }
 
 /* ============================================================== 
