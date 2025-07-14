@@ -1047,3 +1047,44 @@ img.circle-image {
     text-transform: capitalize;
     padding-bottom: 20px;
 }
+
+/* ============================================================== 
+     # Strat Footer Css
+=================================================================== */
+
+.footer-style-one-area {
+    padding: 120px 0;
+    background: #f4f3f2;
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+}
+
+ul.footer-top-social {
+    display: flex;
+    align-items: center;
+}
+
+ul.footer-top-social li {
+    margin-right: 10px;
+}
+
+ul.footer-top-social li a {
+    background: #FF3B00;
+    color: #ffffff;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+/* ============================================================== 
+     # Strat Blog Css
+=================================================================== */
