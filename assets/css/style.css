@@ -1212,5 +1212,77 @@ ul.footer-bottom-menu li:hover a {
 }
 
 /* ============================================================== 
-     # Strat Blog Css
+     # Strat Team Css
+=================================================================== */
+
+.team-style-one-area {
+    padding: 120px 0;
+}
+
+.team-style-one-item .thumb {
+    position: relative;
+    z-index: 1;
+    /* overflow: hidden; */
+}
+
+.team-style-one-item .thumb::after {
+    position: absolute;
+    left: 50%;
+    top: 47%;
+    height: 600px;
+    width: 500px;
+    content: "";
+    background: #f4f6ff;
+    z-index: -1;
+    border-radius: 50% 50% 0 0;
+    transform: translate(-50%, -50%);
+}
+
+.team-style-one-item .info h4 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.team-style-one-item {
+    text-align: center;
+}
+
+.team-style-one-item .info span {
+    font-size: 18px;
+}
+
+ul.team-one-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+ul.team-one-social li {
+    margin-right: 10px;
+}
+
+ul.team-one-social li a {
+    border: 1px solid #ccc;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+ul.team-one-social li:hover a {
+    background: #FF3B00;
+    color: #ffffff;
+}
+
+.team-style-one-item .info {
+    padding: 40px;
+}
+
+/* ============================================================== 
+     # Strat Team Css
 =================================================================== */
