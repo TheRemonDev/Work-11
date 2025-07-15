@@ -1317,5 +1317,47 @@ ul.team-one-social li:hover a {
 }
 
 /* ============================================================== 
-     # Strat Service Details Css
+     # Strat Project Css
 =================================================================== */
+
+.project-style-one-thumb img {
+    width: 100%;
+}
+
+.project-style-one-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 16px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.project-style-one-info p {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.project-style-one-info span {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.project-style-one-info p:hover a {
+    color: #FF3B00;
+}
+
+.project-style-one-item i {
+    border: 1px solid #ccc;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #FF3B00;
+    margin-top: 20px;
+}
+
+.project-style-one-item{
+    margin-top: 30px;
+}
