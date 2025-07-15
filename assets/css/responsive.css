@@ -67,6 +67,11 @@
     font-size: 20px;
 }
 
+.cta-banner-left h2 {
+    font-size: 52px;
+    padding-bottom: 15px;
+}
+
 }
 
 /* MObile Layout: 576px.*/
@@ -131,6 +136,16 @@ ul.footer-bottom-menu li {
 
 .working-style-one-heading p {
     font-size: 16px;
+}
+
+.cta-banner-left h2 {
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+.cta-banner-right ul li {
+    float: left;
+    width: 100%;
 }
 
 }
@@ -202,6 +217,16 @@ ul.footer-bottom-menu li {
 
 .working-style-one-heading p {
     font-size: 16px;
+}
+
+.cta-banner-left h2 {
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+.cta-banner-right ul li {
+    float: left;
+    width: 100%;
 }
 
 }

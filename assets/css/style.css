@@ -216,6 +216,7 @@ h6.site-heading {
     z-index: 1;
     height: 100%;
     width: 100%;
+    overflow: hidden;
 }
 
 .banner-style-one-item h1 {
