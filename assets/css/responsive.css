@@ -35,6 +35,22 @@
     font-weight: 700;
 }
 
+.contact-style-one-content {
+    margin-bottom: 40px;
+}
+
+.contact-style-one-content h3 {
+    font-size: 60px;
+}
+
+.footer-style-one-item {
+    margin-top: 30px;
+}
+
+.footer-bottom-area p {
+    font-size: 17px;
+}
+
 }
 
 /* MObile Layout: 576px.*/
@@ -60,6 +76,31 @@
     font-weight: 700;
 }
 
+.brand-style-one-item {
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-style-one-item {
+    margin-top: 30px;
+}
+
+.footer-bottom-area {
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+ul.footer-bottom-menu {
+    justify-content: center;
+    padding-top: 20px;
+}
+
+ul.footer-bottom-menu li {
+    margin-right: 0;
+    padding: 0 16px;
+}
+
 }
 
 /* MObile Layout: 576px.*/
@@ -82,6 +123,37 @@
 .banner-style-one-item h1 {
     font-size: 50px;
     font-weight: 700;
+}
+
+.service-one-heading h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.brand-style-one-item {
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-style-one-item {
+    margin-top: 30px;
+}
+
+.footer-bottom-area {
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+ul.footer-bottom-menu {
+    justify-content: center;
+    padding-top: 20px;
+}
+
+ul.footer-bottom-menu li {
+    margin-right: 0;
+    padding: 0px 13px;
+    font-size: 14px;
 }
 
 }
