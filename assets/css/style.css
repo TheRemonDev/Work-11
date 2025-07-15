@@ -204,6 +204,15 @@ h6.site-heading {
     padding-bottom: 20px;
 }
 
+.attr-nav .btn-theme {
+    margin: 0;
+}
+
+.attr-nav .btn-theme:hover a {
+    background: red !important;
+    visibility: visible;
+}
+
 /* ============================================================== 
      # Strat Banner Css
 =================================================================== */
