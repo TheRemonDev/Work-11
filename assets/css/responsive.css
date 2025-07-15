@@ -51,6 +51,22 @@
     font-size: 17px;
 }
 
+.working-style-one-item {
+    margin-top: 55px;
+}
+
+.blog-style-one-item .info ul {
+    display: block;
+}
+
+.blog-style-one-item .info ul li {
+    padding-bottom: 10px;
+}
+
+.blog-style-one-item .info h4 {
+    font-size: 20px;
+}
+
 }
 
 /* MObile Layout: 576px.*/
@@ -99,6 +115,22 @@ ul.footer-bottom-menu {
 ul.footer-bottom-menu li {
     margin-right: 0;
     padding: 0 16px;
+}
+
+.contact-style-one-content h3 {
+    font-size: 50px;
+}
+
+.working-style-one-item {
+    margin-top: 55px;
+}
+
+.working-style-one-heading h3 {
+    font-size: 50px;
+}
+
+.working-style-one-heading p {
+    font-size: 16px;
 }
 
 }
@@ -154,6 +186,22 @@ ul.footer-bottom-menu li {
     margin-right: 0;
     padding: 0px 13px;
     font-size: 14px;
+}
+
+.contact-style-one-content h3 {
+    font-size: 40px;
+}
+
+.working-style-one-item {
+    margin-top: 55px;
+}
+
+.working-style-one-heading h3 {
+    font-size: 50px;
+}
+
+.working-style-one-heading p {
+    font-size: 16px;
 }
 
 }
