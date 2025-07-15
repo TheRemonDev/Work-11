@@ -2263,8 +2263,7 @@ nav.navbar.validnavs.mobile-sidenav .navbar-collapse.collapse.collapse-mobile {
 	animation: fadeLeft;
 	height: 100%;
 	min-height: 100vh;
-	/* background: var(--white) none repeat scroll 0 0; */
-	background: #bd081c;
+	background: var(--white) none repeat scroll 0 0;
 	overflow-y: scroll;
 	-webkit-transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 	-moz-transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
@@ -2325,7 +2324,7 @@ nav.navbar.validnavs .navbar-collapse.collapse button {
 nav.navbar.validnavs .navbar-collapse.collapse button i {
 	font-weight: 400;
 	font-size: 15px;
-	color: #fff;
+	color: #000000;
 }
 
 @media only screen and (max-width: 991px) {
